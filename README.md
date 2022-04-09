@@ -2089,7 +2089,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
         game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
     end)
     --------------------------------------------------------------------
-    local RenUi = library:AddWindow("Kuymix hub | BF",Enum.KeyCode.RightControl)
+    local RenUi = library:AddWindow("Mixkky hub | BF",Enum.KeyCode.RightControl)
     --------------------------------------------------------------------
     local Main = RenUi:AddTab("Auto Farm","6026568198")
     local Combat = RenUi:AddTab("Combat","7251993295")
@@ -7948,7 +7948,7 @@ elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId 
         end)
     end
     --
-    local RenUi = library:AddWindow("Kuymix hub | KL",Enum.KeyCode.RightControl)
+    local RenUi = library:AddWindow("Mixkky hub | KL",Enum.KeyCode.RightControl)
     --
     local Main = RenUi:AddTab("Auto Farm","6026568198")
     local Stats = RenUi:AddTab("Stats","7040410130")
@@ -10746,7 +10746,7 @@ elseif game.PlaceId == 6329844902 then
     
     FarmMethod = CFrame.new(0,1,2.5)
     --
-    local RenUi = library:AddWindow("Kuymix hub | LP",Enum.KeyCode.RightControl)
+    local RenUi = library:AddWindow("Mixkky hub | LP",Enum.KeyCode.RightControl)
     --
     local Main = RenUi:AddTab("Auto Farm","6026568198")
     local Stats = RenUi:AddTab("Stats","7040410130")
