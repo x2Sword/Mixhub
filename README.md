@@ -11439,6 +11439,11 @@ elseif game.PlaceId == 6329844902 then
         if not game:IsLoaded() then
             print("Game is loading waiting...")
         end
+        fastattack = true
+	AutoFarmTab:Toggle("Fast Attack", true,function(a)
+		fastattack = a
+	end)
+    
         local maxplayers = math.huge
         local serversmaxplayer;
         local goodserver;
