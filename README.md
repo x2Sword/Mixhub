@@ -11493,7 +11493,10 @@ elseif game.PlaceId == 6329844902 then
         end
     end)
     
-    local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+    Misc:AddSeperator("Character")
+    
+    Misc:AddToggle("fastattack",_G.fastattack,function(value)
+        _local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
 local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
 Camera:Stop()
 coroutine.wrap(function()
@@ -11505,11 +11508,6 @@ coroutine.wrap(function()
         end
     end)
 end)()
-
-    Misc:AddSeperator("Character")
-    
-    Misc:AddToggle("NoClip",_G.NoClip,function(value)
-        _G.NoClip = value
     end)
     
     Misc:AddToggle("Fly",false,function(value)
